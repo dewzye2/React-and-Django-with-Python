@@ -95,10 +95,10 @@ function CartScreen({ match, location, history }) {
             </ListGroup.Item>
           </ListGroup>
 
-          <ListGroup.Item>
+          <ListGroup.Item className="d-grid gap-2">
             <Button
               type='button'
-              className='btn-block'
+              className='btn-block-level'
               disabled={cartItems.length === 0}
               onClick={checkoutHandler}
             >
